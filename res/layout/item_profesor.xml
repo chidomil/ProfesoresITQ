@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp" >
+    
+<RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_shape"
+        android:padding="4dp" >
+
+        <ImageView
+            android:id="@+id/profesor_imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription ="@string/foto_profesor"
+            android:src="@drawable/ic_launcher" />
+        	
+        <TextView
+            android:id="@+id/profesor_textview_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/profesor_imageView"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="30dp"
+            android:layout_toRightOf="@+id/profesor_imageView"
+            android:ellipsize="end"
+            android:singleLine="false"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="@string/nombre_profesor" />
+        
+        <TextView
+            android:id="@+id/profesor_textview_karma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/karma"
+            android:singleLine="true"
+            android:textStyle="italic"
+            android:textSize="12sp"
+            android:textColor="#666666"
+            android:ellipsize="end"
+            android:layout_alignLeft="@+id/profesor_textview_nombre"
+            android:layout_below="@+id/profesor_textview_nombre"/>
+
+        <TextView
+            android:id="@+id/profesor_textview_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/profesor_textview_karma"
+            android:layout_alignBottom="@+id/profesor_textview_karma"
+            android:layout_alignParentRight="true"
+            android:text="@string/id_maestro"
+            android:textSize="0sp"
+  			android:textColor="@android:color/transparent" />
+
+    </RelativeLayout>
+
+</LinearLayout>

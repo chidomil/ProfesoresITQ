@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Profesores ITQ</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="logo_splash">Logo</string>
+    <string name="foto_profesor">foto del maestro</string>
+    <string name="img_like">img recomendado</string>
+    <string name="nombre_profesor">Nombre del maestro nombre largo exagerado</string>
+    <string name="karma">Karma</string>
+    <string name="id_maestro">IDm</string>
+    <string name="search">Buscar</string>
+    <string name="boto_add_maestro">Agregar Profesor</string>
+    <string name="boto_add_calificacion">Calificar Profesor</string>
+    <string name="boto_add_archivo">Agregar Archivo</string>
+    <string name="boto_view_archivo">Ver Archivo</string>
+    <string name="app_view_nuevo_maestro">Nuevo Profesor</string>
+    <string name="app_view_calificaciones">Calificaciones</string>
+    <string name="app_view_archivos">Archivos</string>
+    <string name="materia">Clase: </string>
+    <string name="t_facilidad">Facilidad: </string>
+    <string name="t_ayuda">Ayuda: </string>
+    <string name="t_claridad">Claridad: </string>
+    <string name="facilidad">10</string>
+    <string name="ayuda">10</string>
+    <string name="claridad">10</string>
+    <string name="nombre_materia">Admon. de la calidad y Control estadisti</string>
+    <string name="fecha">12/12/12</string>
+    <string name="comentario">Cometario: </string>
+    <string name="splash"> </string>
+    <string name="recomendado">¿Recomiendas éste Profesor?</string>
+    <string name="listo">Listo</string>
+    <string name="no">NO</string>
+    <string name="si">SI</string>
+    <string name="ir">Ir</string>
+    <string name="aviso">Por favor, escribe sólo comentarios constructivos. Cualquier comentario ofensivo o inapropiado será borrado a menos que sea divertido. lo que escribes aquí es tú responsabilidad.</string>
+    <string name="aviso_maestro">Por favor, agrega sólo profesores reales que no se encuentren registrados. Cualquier otro profesor será borrado.</string>
+    <string name="aviso_archivo">Por favor, agrega un nombre que describa al archivo.</string>
+    <string name="menu_calificaciones">CALIFICACIONES</string>
+    <string name="menu_archivos">ARCHIVOS</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="foto">Agregar Foto</string>
+    <string name="foto1">Abrir la Galería</string>
+    <string name="foto2">Tomar una Foto</string>
+    <string name="bt_save_img">Guardar Imagen</string>
+    <string name="muro">MURO (BETA)</string>
+    <string name="inicio">INICIO</string>
+    <string name="salirPublicidad">Cerrar X</string>
+  
+    
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/buttonPublicidad"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:background="@drawable/orange_button"
+        android:textColor="#ffffff"
+        android:text="@string/salirPublicidad" /> 
+
+    <ImageView
+        android:id="@+id/imageViewPublicidad"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:contentDescription="@string/salirPublicidad"
+    	android:scaleType="fitStart"
+        android:src="@drawable/f_negro" />
+
+</LinearLayout>

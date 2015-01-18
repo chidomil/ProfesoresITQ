@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale" severity="ignore" />
+    <issue id="FloatMath">
+        <ignore path="src/com/viga/profesoresitq/Activity_ZoomArchivo.java" />
+    </issue>
+    <issue id="UseValueOf">
+        <ignore path="src/com/viga/profesoresitq/Activity_NuevoArchivo.java" />
+        <ignore path="src/com/viga/profesoresitq/Activity_NuevoMaestro.java" />
+    </issue>
+</lint>

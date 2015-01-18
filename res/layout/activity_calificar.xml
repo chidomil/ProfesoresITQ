@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff3f3f3"
+    android:orientation="vertical" >
+    
+         <TextView
+         android:id="@+id/calificar_nombre_maestro"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:layout_height="40dip"
+         android:background="@drawable/style_search"
+         android:hint="@string/nombre_profesor"
+         android:singleLine="false"
+         android:textSize="13sp"
+         android:textStyle="bold"
+         android:textColor="#adadad" />
+         
+         <TextView
+         android:id="@+id/calificar_coment1"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:layout_height="20dip"
+         android:background="@drawable/style_text"
+         android:hint="@string/materia"
+         android:singleLine="false"
+         android:layout_marginTop="3dp"
+         android:textSize="13sp"
+         android:textColor="#000000" />
+         
+         <EditText
+             android:id="@+id/calificar_materia"
+             android:layout_width="match_parent"
+             android:layout_height="26dip"
+             android:background="@drawable/style_multiline"
+             android:ems="12"
+             android:maxLength="39"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:gravity="top"
+             android:textSize="13sp"
+             android:padding="3sp"
+             android:inputType="text" >
+         </EditText>
+                  
+         <TextView
+         android:id="@+id/calificar_coment2"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:layout_height="20dip"
+         android:background="@drawable/style_text"
+         android:hint="@string/comentario"
+         android:singleLine="false"
+         android:layout_marginTop="3dp"
+         android:textSize="13sp"
+         android:textColor="#000000" />
+
+         <EditText
+             android:id="@+id/calificar_comentario"
+             android:layout_width="match_parent"
+             android:layout_height="70dip"
+             android:background="@drawable/style_multiline"
+             android:ems="12"
+             android:maxLength="295"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:gravity="top"
+             android:textSize="13sp"
+             android:padding="3sp"
+             android:imeOptions="actionDone"
+             android:inputType="text" >
+         </EditText>
+         
+        
+         
+         <TextView
+         android:id="@+id/calificar_coment3"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:layout_height="20dip"
+         android:background="@drawable/style_text"
+         android:hint="@string/t_claridad"
+         android:singleLine="false"
+         android:layout_marginTop="6dp"
+         android:textSize="13sp"
+         android:textColor="#000000" />
+
+     
+         
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" >
+
+             <RatingBar
+                 android:id="@+id/ratingBarClaridad"
+                 style="@style/roomRatingBar"
+                 android:layout_width="wrap_content"
+                 android:layout_height="20dip"
+                 android:layout_alignParentTop="true"
+                 android:layout_centerHorizontal="true"
+                 android:gravity="center" />
+
+
+         </RelativeLayout>
+         
+         <TextView
+         android:id="@+id/calificar_coment4"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:layout_height="20dip"
+         android:background="@drawable/style_text"
+         android:hint="@string/t_ayuda"
+         android:singleLine="false"
+         android:layout_marginTop="3dp"
+         android:textSize="13sp"
+         android:textColor="#000000" />
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" >
+
+             <RatingBar
+                 android:id="@+id/ratingBarAyuda"
+                 style="@style/roomRatingBar"
+                 android:layout_width="wrap_content"
+                 android:layout_height="20dip"
+                 android:layout_alignParentTop="true"
+                 android:layout_centerHorizontal="true"
+                 android:gravity="center" />
+
+         </RelativeLayout>
+         
+         <TextView
+         android:id="@+id/calificar_coment5"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:layout_height="20dip"
+         android:background="@drawable/style_text"
+         android:hint="@string/t_facilidad"
+         android:singleLine="false"
+         android:layout_marginTop="3dp"
+         android:textSize="13sp"
+         android:textColor="#000000" />
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" >
+
+             <RatingBar
+                 android:id="@+id/ratingBarFacilidad"
+                 style="@style/roomRatingBar"
+                 android:layout_width="wrap_content"
+                 android:layout_height="20dip"
+                 android:layout_alignParentTop="true"
+                 android:layout_centerHorizontal="true"
+                 android:gravity="center" />
+
+         </RelativeLayout>
+         
+         <TextView
+         android:id="@+id/calificar_coment6"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:layout_height="20dip"
+         android:background="@drawable/style_text"
+         android:hint="@string/recomendado"
+         android:singleLine="false"
+         android:layout_marginTop="3dp"
+         android:textSize="13sp"
+         android:textColor="#000000" />
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" >
+
+                      <CheckBox
+                          android:id="@+id/checkbox_status"
+                          android:layout_width="40dip"
+                          android:layout_height="20dip"
+                          android:layout_alignParentTop="true"
+                          android:layout_centerHorizontal="true"
+                          android:text="@string/splash" 
+                          android:button="@drawable/transparente"
+                          android:background="@drawable/checkbox_selector"/>
+
+
+                      <TextView
+                          android:id="@+id/textView_status"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_alignParentTop="true"
+                          android:layout_centerHorizontal="true"
+                          android:layout_marginTop="1dp"
+                          android:text="@string/no"
+                          android:textColor="#ffffff"
+                          android:textSize="13sp" />
+             
+         </RelativeLayout>
+
+         <Button
+             android:id="@+id/calificar_bt_listo"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/orange_button_rad"
+             android:layout_marginTop="30dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+			 android:textColor="#ffffff"
+             android:text="@string/listo" />
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="fill_parent" >
+
+             <TextView
+                 android:id="@+id/textViewaviso"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentBottom="true"
+                 android:layout_centerHorizontal="true"
+                 android:text="@string/aviso"
+                 android:gravity="center"
+                 android:layout_marginBottom="3dp"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginRight="10dp"
+                 android:textColor="#aaaaaa"
+             	 android:textSize="9sp" />
+             
+         </RelativeLayout>
+
+</LinearLayout>

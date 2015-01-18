@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_shape"
+        android:padding="4dp" >
+
+        <TextView
+            android:id="@+id/comentario_textview_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:ellipsize="end"
+            android:paddingTop="6sp"
+            android:singleLine="false"
+            android:text="@string/materia"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/comentario_textview_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/comentario_textview_comentario"
+            android:layout_below="@+id/comentario_textview_comentario"
+            android:paddingTop="6sp"
+            android:text="@string/t_claridad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/comentario_textview_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/comentario_textview_4"
+            android:layout_below="@+id/comentario_textview_4"
+            android:paddingTop="4sp"
+            android:text="@string/t_facilidad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/comentario_textview_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/comentario_textview_3"
+            android:layout_below="@+id/comentario_textview_3"
+            android:paddingTop="4sp"
+            android:text="@string/t_ayuda"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/comentario_textview_materia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/comentario_textview_1"
+            android:layout_alignBottom="@+id/comentario_textview_1"
+            android:layout_toRightOf="@+id/comentario_textview_4"
+            android:paddingLeft="2sp"
+            android:singleLine="false"
+            android:text="@string/nombre_materia"
+            android:textStyle="italic"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/comentario_textview_claridad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/comentario_textview_3"
+            android:layout_alignBottom="@+id/comentario_textview_3"
+            android:layout_toRightOf="@+id/comentario_textview_2"
+            android:paddingLeft="3sp"
+            android:text="@string/claridad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/comentario_textview_ayuda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/comentario_textview_4"
+            android:layout_alignBottom="@+id/comentario_textview_4"
+            android:layout_alignLeft="@+id/comentario_textview_claridad"
+            android:paddingLeft="3sp"
+            android:text="@string/ayuda"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/comentario_textview_facilidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/comentario_textview_2"
+            android:layout_alignLeft="@+id/comentario_textview_ayuda"
+            android:paddingLeft="3sp"
+            android:text="@string/facilidad"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/comentario_imageview_recomendado"
+            android:contentDescription="@string/img_like"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/comentario_textview_facilidad"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/recomendado" />
+
+        <TextView
+            android:id="@+id/comentario_textview_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/comentario_textview_facilidad"
+            android:layout_toLeftOf="@+id/comentario_imageview_recomendado"
+            android:text="@string/fecha"
+            android:textSize="12sp"
+            android:paddingRight="3sp"
+            android:textColor="#9c9c9c" />
+
+        <TextView
+            android:id="@+id/comentario_textview_comentario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/comentario_textview_1"
+            android:layout_below="@+id/comentario_textview_1"
+            android:paddingTop="6sp"
+            android:text="@string/comentario"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

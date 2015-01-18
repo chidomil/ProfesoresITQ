@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff3f3f3"
+    android:orientation="vertical" >
+
+             <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" >
+    
+     <EditText
+         android:id="@+id/buscador"
+         android:layout_width="fill_parent"
+         android:layout_height="40dip"
+         android:background="@drawable/style_search"
+         android:hint="@string/search"
+         android:inputType="textNoSuggestions"
+         android:maxLength="40"
+         android:padding="4dip"
+         android:singleLine="true"
+         android:imeOptions="actionDone"
+         android:textColor="#bbbbbb" >
+    
+    </EditText>
+
+     <Button
+         android:id="@+id/button_buscar"
+         android:layout_width="50dip"
+         android:layout_height="31dip"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:background="@drawable/blue_button_rad"
+         android:layout_margin="3dp"
+         android:textSize="12sp"
+         android:textStyle="bold"
+         android:textColor="#ffffff" 
+         android:text="@string/ir" />
+
+    </RelativeLayout>
+     
+     <Button
+         android:id="@+id/bt_addprofesor"
+         android:layout_width="match_parent"
+         android:layout_height="40dip"
+         android:textColor="#ffffff"
+         android:background="@drawable/orange_button"
+         android:text="@string/boto_add_maestro" 
+         android:layout_marginBottom="4dip"/>
+
+    <ListView
+        android:id="@+id/profesores_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        android:listSelector="#e5e5e5" 
+		android:cacheColorHint="@android:color/transparent"
+        android:divider="#00000000" />
+
+</LinearLayout>
+<LinearLayout
+    android:id="@+id/toast_layout_aviso"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+    
+
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+</LinearLayout>
+</FrameLayout>

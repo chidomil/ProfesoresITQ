@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp" >
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_shape"
+        android:padding="4dp" >
+    
+        <TextView
+            android:id="@+id/archivo_textview_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:ellipsize="end"
+            android:singleLine="false"
+            android:text="@string/nombre_profesor"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+		<ImageView
+		    android:id="@+id/archivo_imageView"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="8dp"
+		    android:layout_marginRight="8dp"
+		    android:paddingBottom="8dp"
+		    android:layout_marginTop="4dp"
+		    android:layout_below="@+id/archivo_textview_fecha"
+            android:layout_centerHorizontal="true"
+		    android:adjustViewBounds="true"
+		    android:contentDescription="@string/foto_profesor"
+		    android:scaleType="centerCrop"
+		    android:src="@drawable/f_blanco" />
+
+           <TextView
+               android:id="@+id/archivo_textview_fecha"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:paddingLeft="8dp"
+               android:layout_alignLeft="@+id/archivo_textview_desc"
+               android:layout_below="@+id/archivo_textview_desc"
+               android:ellipsize="end"
+               android:singleLine="false"
+               android:text="@string/fecha"
+               android:textColor="#999999"
+               android:textSize="12sp" />
+
+</RelativeLayout>
+
+</LinearLayout>

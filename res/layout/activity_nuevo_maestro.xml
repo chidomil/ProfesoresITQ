@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff3f3f3"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="#e3e3e3"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+            <Button
+                android:id="@+id/maestro_bt_foto"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/blue_button_rad"
+                android:text="@string/foto"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:id="@+id/imagenProfesor"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/splash"
+                android:src="@drawable/icon_profesores" />
+
+    </RelativeLayout>
+    
+
+ 		 <TextView
+         android:id="@+id/label_apellidos"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:layout_height="20dip"
+         android:background="@drawable/style_text"
+         android:hint="@string/apellidos"
+         android:singleLine="false"
+         android:layout_marginTop="5dp"
+         android:textSize="13sp"
+         android:textColor="#000000" />
+         
+         <EditText
+             android:id="@+id/maestro_apellidos"
+             android:layout_width="match_parent"
+             android:layout_height="26dip"
+             android:background="@drawable/style_multiline"
+             android:ems="12"
+             android:maxLength="30"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:gravity="top"
+             android:textSize="13sp"
+             android:padding="3sp"
+             android:inputType="text" >
+         </EditText>
+         
+ 		 <TextView
+         android:id="@+id/label_nombre"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:layout_height="20dip"
+         android:background="@drawable/style_text"
+         android:hint="@string/nombre"
+         android:singleLine="false"
+         android:layout_marginTop="3dp"
+         android:textSize="13sp"
+         android:textColor="#000000" />
+         
+         <EditText
+             android:id="@+id/maestro_nombre"
+             android:layout_width="match_parent"
+             android:layout_height="26dip"
+             android:background="@drawable/style_multiline"
+             android:ems="12"
+             android:maxLength="20"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:gravity="top"
+             android:textSize="13sp"
+             android:padding="3sp"
+             android:inputType="text" >
+         </EditText>
+                  
+
+
+         <Button
+             android:id="@+id/maestro_bt_listo"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/orange_button_rad"
+             android:layout_marginTop="30dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+			 android:textColor="#ffffff"
+             android:text="@string/listo" />
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="fill_parent" >
+
+             <TextView
+                 android:id="@+id/textViewaviso"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentBottom="true"
+                 android:layout_centerHorizontal="true"
+                 android:text="@string/aviso_maestro"
+                 android:gravity="center"
+                 android:layout_marginBottom="3dp"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginRight="10dp"
+                 android:textColor="#aaaaaa"
+             	 android:textSize="12sp" />
+             
+         </RelativeLayout>
+
+</LinearLayout>

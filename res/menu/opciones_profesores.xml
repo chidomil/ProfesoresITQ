@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/menu_contextual_agregar_calif"
+    	android:title="@string/menu_calificaciones">
+    </item>
+    
+    <item 
+	    android:id="@+id/menu_contextual_agregar_archivo"
+    	android:title="@string/menu_archivos">
+	</item>
+
+</menu>

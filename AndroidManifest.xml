@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.viga.profesoresitq"
+    android:versionCode="3"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.viga.profesoresitq.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.viga.profesoresitq.Activity_Principal"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.viga.profesoresitq.Activity_NuevoMaestro"
+            android:label="@string/app_view_nuevo_maestro" >
+        </activity>
+        <activity
+            android:name="com.viga.profesoresitq.Activity_Calificaciones"
+            android:label="@string/app_view_calificaciones" >
+        </activity>
+        <activity
+            android:name="com.viga.profesoresitq.Activity_Calificar"
+            android:label="@string/boto_add_calificacion" >
+        </activity>
+        <activity
+            android:name="com.viga.profesoresitq.Activity_Archivos"
+            android:label="@string/app_view_archivos" >
+        </activity>
+        <activity
+            android:name="com.viga.profesoresitq.Activity_NuevoArchivo"
+            android:label="@string/boto_add_archivo" >
+        </activity>
+        <activity
+            android:name="com.viga.profesoresitq.Activity_ZoomArchivo"
+            android:label="@string/boto_view_archivo" >
+        </activity>
+        <activity
+            android:name="com.viga.profesoresitq.Activity_Chat"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.viga.profesoresitq.Activity_Publicidad"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+    </application>
+
+</manifest>
